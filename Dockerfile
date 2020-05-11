@@ -1,2 +1,2 @@
 FROM golang
-RUN apt-get install -y python3-pip
+RUN apt-get install -y wget

@@ -6,3 +6,5 @@ COPY . .
 RUN go build -o /bin $GOPATH/src/test_go/
 # Run the test_go binarry file 
 # CMD ["./test_go"]
+RUN chmod 755 /bin
+ENTRYPOINT "/bin"

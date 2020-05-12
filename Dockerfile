@@ -1,7 +1,7 @@
 FROM golang
-# Set /go_channel to the go folder as workdir
-WORKDIR /go_channel
-# Generate binary file from our /go_channel
+# Set /test_go to the go folder as workdir
+WORKDIR /test_go
+# Generate binary file from our /test_go
 RUN go build
-# Run the go_channel binarry file 
-CMD ["./go_channel"]
+# Run the test_go binarry file 
+CMD ["./test_go"]

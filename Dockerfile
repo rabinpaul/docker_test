@@ -1,4 +1,4 @@
-FROM alpine
+FROM golang:alpine
 RUN mkdir /testgo
 ADD . /testgo
 WORKDIR /testgo

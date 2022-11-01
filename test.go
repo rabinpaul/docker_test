@@ -18,5 +18,5 @@ func main() {
 	go hello(data)
 	a := <-data
 
-	fmt.Println("main Function", a)
+	fmt.Println("main Function......", a)
 }
